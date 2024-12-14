@@ -1,0 +1,186 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #00020E;
+}
+
+/* ----------------------------------список меню------------------------- */
+.container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 44px;
+  margin: 51px 43px 0 43px;
+}
+
+.menu__list {
+  width: 73px;
+  height: 984px;
+  border-radius: 22px;
+  background-color: rgba(9, 13, 25, 0.43);
+  /* background-color: rgb(4, 100, 68); */
+}
+
+.ul__item-list {
+  margin-left: 21px;
+  row-gap: 39px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.logo__img {
+  margin-top: 15px;
+  margin-bottom: 19px;
+  margin-left: -14px;
+  display: block;
+  border-radius: 15px;
+  width: 57px;
+  height: 55px;
+}
+
+.statistic__img {
+  width: 23px;
+  margin-left: 2px;
+}
+
+.users__img {
+  margin-left: -5px;
+  /* width: 32px; */
+  height: 40px;
+}
+
+.deposite__img {
+  margin-top: -11px;
+  margin-left: -9px;
+  width: 47px;
+  /* height: 31px; */
+}
+
+.maney__img {
+  width: 43px;
+  margin-left: -5px;
+  margin-top: -15px;
+}
+
+.disount__img {
+  width: 32px;
+  margin-left: -1px;
+  margin-top: -7px;
+}
+
+.settings__img {
+  width: 53px;
+  margin-left: -10px;
+  margin-top: -12px;
+}
+
+/* ------------------------список поддержки -------------------- */
+
+.supports {}
+
+.support__box {
+  overflow: scroll;
+  padding: 25px 33px 0 33px;
+  width: 426px;
+  height: 700px;
+  border-radius: 22px;
+  background-color: rgba(9, 13, 25, 1);
+  /* background-color: blue; */
+}
+
+.support__title {
+
+  margin-bottom: 17px;
+  font-weight: 800;
+  font-size: 25px;
+  color: white;
+}
+
+.box__title {
+  position: relative;
+}
+
+.actives {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+}
+
+.support__input {
+  padding-left: 18px;
+  width: 359px;
+  height: 40px;
+  border-radius: 18px;
+  background-color: rgba(21, 29, 51, 1);
+}
+
+.line__from-supports {
+  width: 299px;
+  margin: 16px 0 30px 25px;
+}
+
+.li__support-item {
+  padding-top: 13px;
+  padding-left: 38px;
+  width: 359px;
+  height: 55px;
+  border-radius: 18px;
+  background-color: rgba(68, 78, 104, 0.37);
+}
+
+.support__mail {
+  font-size: 13px;
+  color: white;
+}
+
+.support__name {
+  font-size: 9px;
+  color: white;
+}
+
+/* -----------------------------------форма чата------------------------- */
+
+.chat__box {
+  padding: 25px 31px;
+  position: relative;
+  width: 896px;
+  height: 800px;
+  /* background-color: rgb(27, 67, 186); */
+  background-color: rgba(9, 13, 25, 1);
+  border-radius: 43px;
+}
+
+
+.chat__info-box {
+  margin-bottom: 28px;
+  width: 830px;
+  height: 55px;
+  border-radius: 18px;
+  background-color: rgba(68, 78, 104, 0.37);
+}
+
+.line__from-chat {
+  margin-left: -32px;
+  margin-bottom: 74px;
+}
+
+.chat__input {
+  padding-left: 19px;
+  position: absolute;
+  bottom: 20px;
+  left: 31px;
+  width: 830px;
+  height: 40px;
+  border-radius: 18px;
+  background-color: rgba(21, 29, 51, 1);
+}
+
+.chat__user-one {
+  color: white;
+  float: left;
+}
+
+.chat__user-two {
+  color: white;
+  float: right;
+}
