@@ -97,20 +97,21 @@ body {
 
 .support__box::-webkit-scrollbar {
   width: 6px;
-
 }
+
 .support__box::-webkit-scrollbar-track {
   background: rgba(14, 19, 35, 1);
-margin-top: 120px;
+  margin-top: 120px;
+  margin-bottom: 20px;
   border-radius: 20px;
 }
+
 .support__box::-webkit-scrollbar-thumb {
   border-radius: 20px;
   background: rgba(31, 37, 55, 0.55);
 }
 
 .support__title {
-
   margin-bottom: 17px;
   font-weight: 800;
   font-size: 25px;
@@ -143,7 +144,9 @@ margin-top: 120px;
 }
 
 .li__support-item {
-  padding-top: 13px;
+  margin-bottom: 11px;
+  position: relative;
+  padding-top: 15px;
   padding-left: 38px;
   width: 359px;
   height: 55px;
@@ -151,14 +154,73 @@ margin-top: 120px;
   background-color: rgba(68, 78, 104, 0.37);
 }
 
+.li__support-item::before {
+  position: absolute;
+  top: 20px;
+  left: 12px;
+  content: url(img/psevdoelement/online-active.svg);
+}
+
+.li__support-item::after {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  top: 12px;
+  right: 109px;
+  content: url(img/imgFromChat/actives-noties.svg);
+}
+
+.support__contry {
+  position: absolute;
+  top: 12px;
+  left: 180px;
+}
+.AM {
+  color: white;
+  position: absolute;
+  top: 18px;
+  left: 205px;
+  font-size: 8px;
+}
+
+.support__status {
+  color: rgba(207, 214, 255, 0.59);
+  font-size: 8px;
+  position: absolute;
+  top: 5px;
+  right: 14px;
+}
+
+.new__massage {
+  position: absolute;
+  border-radius: 7px;
+  background: linear-gradient(#5993FF, #613EFF);
+  bottom: 9px;
+  right: 27px;
+  width: 23px;
+  height: 16px;
+}
+
+.clip {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+.clip__img {
+  width: 20px;
+  height: 20px;
+}
+
 .support__mail {
+  margin-bottom: 3px;
   font-size: 13px;
   color: white;
 }
 
 .support__name {
   font-size: 9px;
-  color: white;
+  color: rgba(131, 137, 168, 1);
 }
 
 /* -----------------------------------форма чата------------------------- */
