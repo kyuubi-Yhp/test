@@ -86,12 +86,27 @@ body {
 
 .support__box {
   overflow: scroll;
+  overflow-x: hidden;
   padding: 25px 33px 0 33px;
   width: 426px;
   height: 700px;
   border-radius: 22px;
   background-color: rgba(9, 13, 25, 1);
   /* background-color: blue; */
+}
+
+.support__box::-webkit-scrollbar {
+  width: 6px;
+
+}
+.support__box::-webkit-scrollbar-track {
+  background: rgba(14, 19, 35, 1);
+margin-top: 120px;
+  border-radius: 20px;
+}
+.support__box::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: rgba(31, 37, 55, 0.55);
 }
 
 .support__title {
@@ -114,6 +129,7 @@ body {
 }
 
 .support__input {
+  color: white;
   padding-left: 18px;
   width: 359px;
   height: 40px;
