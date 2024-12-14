@@ -68,6 +68,12 @@ body {
   margin-top: -7px;
 }
 
+.support__img {
+  width: 38px;
+  margin-left: -3px;
+
+}
+
 .settings__img {
   width: 53px;
   margin-left: -10px;
